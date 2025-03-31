@@ -1,6 +1,5 @@
 # 🚀 Awesome Translator 🌍  
-![Made with Love](https://img.shields.io/badge/Made%20with-Love-red)  
-![Version](https://img.shields.io/badge/Version-1.0-blue)  
+
 ![Languages](https://img.shields.io/badge/Languages-HTML%20%7C%20CSS%20%7C%20JavaScript-green)  
 
 ## ✨ About the Project  
