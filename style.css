@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background-color: #1c1b29; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.container {
+    background-color: #2e2b40; 
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #72e0a3;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #72e0a3;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1c1b29;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #30c67c;
+    box-shadow: 0 0 8px rgba(48, 198, 124, 0.8);
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #72e0a3;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1c1b29;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+select:focus {
+    outline: none;
+    border-color: #30c67c;
+}
+
+button {
+    background-color: #72e0a3;
+    color: #1c1b29;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #30c67c;
+}
+
+
+.loader {
+    display: none;
+    margin: 15px auto;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #72e0a3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#outputt {
+    background-color: #1c1b29;
+    color: #72e0a3;
+    padding: 12px;
+    border: 2px solid #72e0a3;
+    border-radius: 6px;
+    font-size: 16px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
