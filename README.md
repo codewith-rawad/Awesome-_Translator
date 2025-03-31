@@ -11,14 +11,7 @@
 
 ---
 
-## 🖥️ Demo  
-👇 **Check it out!** 👇  
-[Live Demo 🔗](#)  
 
----
-
-## 📸 Preview  
-![Translator Preview](https://via.placeholder.com/800x400?text=Project+Preview)
 
 ---
 
